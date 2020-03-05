@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>NGAY_THANG_NAM</title>
+        <script language="JavaScript">
+            var today = new Date();
+            var the_day = today.getDate;
+            var the_month = today.getMonth;
+            the_month = the_month + 1;
+            var the_whole_date = the_month + "/" + the_day;
+        </script>
+    </head>
+    <body>
+           Today's date is:
+           <script language="JavaScript">
+               document.write(the_whole_date);
+           </script>
+    </body>
+</html>
